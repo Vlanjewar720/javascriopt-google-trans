@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 200px;
+            height: 300px;
+            background-color: red;
+            position: relative;
+            left: 40%;
+            top: 150px;
+            border-radius: 15px;
+            background-image: url(./grid_image/cover2.png);
+            background-position: center;
+            display: flex;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 300px;
+
+
+        }
+        .sub{
+            width: 70px;
+            height: 70px;
+            background-color: rgb(7, 4, 4);
+            position: relative;
+            left: 30%;
+            top: -40px;
+            border-radius: 50%;
+            border: 5px solid rgb(184, 175, 175);
+            background: url(./grid_image/trval2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: left;
+            box-shadow: -5px -5px 15px rgb(97, 139, 194) , 5px 5px 15px rgb(94, 64, 165);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub"> </div>
+    </div>
+    <div class="main">
+        <div class="sub"> </div>
+    </div>
+    <div class="main">
+        <div class="sub"> </div>
+    </div>
+</body>
+</html>

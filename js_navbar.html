@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_nav</title>
+    <link rel="stylesheet" href="./js_navbar.css">
+    <script>
+        // const menubtn= document.querySelector('.btn-menu')
+        // const navlink= document.querySelector('.nav-links');
+
+        //    menubtn.addEventListener('click',() => {
+        //     navlink.classList.toggle('.active');
+        //    });
+        function menubar(){
+        let menu = document.getElementById('.btn-menu');
+         document.getElementsByClassName('.mlist').disply="";
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVANTURE</h1>
+        <ul class="nav-links mlist">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Contact</a></li>
+        </ul>
+        <img src="./grid_image/menu_btn.png" class="btn-menu" onclick="menubar()"  alt="">
+    </nav>
+   
+    <header>
+        <div class="header_content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>A WONDERFULL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+</body>
+</html>
